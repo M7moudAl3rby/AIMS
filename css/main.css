@@ -1,0 +1,52 @@
+:root{
+    --main-color:#3f51b5;
+}
+body{
+    background: #f6f6f6;}
+
+nav .brand-logo{
+    padding-left: 20px !important;
+}
+nav .nav-wrapper{
+    padding-right: 15px !important;
+}
+
+/* Side nav */
+.sidenav{
+    padding-top: 30px !important;
+}
+.add-post{
+margin-top: 50px !important;
+}
+.add-post input:focus{
+    border-bottom: 1px solid indigo !important;
+}
+.add-post button{
+    width: 120px;
+
+
+}
+.article{
+    background: #fff !important;
+    padding: 20px;
+    margin-top: 30px;
+    
+    } 
+.article a{
+    color: var(--main-color);
+}
+.article button{
+    padding: 10px;
+    color: #fff ;
+    background: var(--main-color);
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+/* Container */
+@media only screen and (min-width: 993px){
+.container {
+    width: 90%; }
+    /*  Articles  */
+  
+    
